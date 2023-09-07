@@ -1,0 +1,20 @@
+module Base
+{
+    item Antibiotics
+    {
+        DisplayCategory = FirstAid,
+        Weight = 0.2,
+        Type = Drainable,
+        DisplayName = Antibiotics,
+        Icon = Antibiotics,
+        ReduceInfectionPower = 50,
+        UseDelta = 0.1,
+        UseWhileEquipped = FALSE,
+        Tooltip = Tooltip_Antibiotics,
+        CustomContextMenu = Take,
+        StaticModel = PillBottle,
+        WorldStaticModel = PillBottleGround,
+        WorldStaticModel = Antibiotics,
+        Medical = TRUE,
+    }
+}
